@@ -18,7 +18,8 @@ You can use Homebrew or the precompiled binary to install watch if you don't alr
 
 <h2>Miner - General Info </h2>
 
-```#!/bin/bash
+```
+#!/bin/bash
 
 curl -k --silent https://api.nanopool.org/v1/eth/user/:your_wallet_address |
 
