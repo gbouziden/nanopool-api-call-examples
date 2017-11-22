@@ -29,9 +29,9 @@ sed 's/[{}]//g' |
 tr -d '""' |
 tr -d ','
 ```
-<br />
+
 <b>Save file and run</b>:</br>
-<code>watch -n 10 --no-title /.miner.sh</code>
+<code>watch -n 10 --no-title /.miner.sh</code><br />
 
 <b>Output</b>:<br />
 ```balance: 0.11324834
