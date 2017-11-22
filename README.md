@@ -17,7 +17,8 @@ You can use Homebrew or the precompiled binary to install watch if you don't alr
 <code>vi miner.sh</code><br />
 
 <h2>Miner - General Info </h2>
-#!/bin/bash
+
+```#!/bin/bash
 
 curl -k --silent https://api.nanopool.org/v1/eth/user/:your_wallet_address |
 
@@ -26,6 +27,7 @@ jq -r '{balance:.data.balance, curent_hashrate:.data.hashrate, six_hr_avg:.data.
 sed 's/[{}]//g' |
 tr -d '""' |
 tr -d ','
+```
 <br /><br />
 <b>Save file and run</b>:</br>
 <code>watch -n 10 --no-title /.miner.sh</code>
