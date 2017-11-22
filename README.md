@@ -29,7 +29,7 @@ sed 's/[{}]//g' |
 tr -d '""' |
 tr -d ','
 ```
-<br /><br />
+<br />
 <b>Save file and run</b>:</br>
 <code>watch -n 10 --no-title /.miner.sh</code>
 
