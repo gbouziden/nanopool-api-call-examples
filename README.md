@@ -34,14 +34,14 @@ tr -d ','
 <code>watch -n 10 --no-title /.miner.sh</code>
 
 <b>Output</b>:<br />
-```balance: 0.11324834<br />
-total_hashrate: 1025.0<br />
-six_hr_avg: 1030.5<br /><br />
+```balance: 0.11324834
+total_hashrate: 1025.0
+six_hr_avg: 1030.5
 
-workers: GTX1070<br />
-hashrate: 1030.5<br /><br />
+workers: GTX1070
+hashrate: 1030.5
 
 
-workers: GTX1070x2<br />
+workers: GTX1070x2
 hashrate: 1030.5
 ```
