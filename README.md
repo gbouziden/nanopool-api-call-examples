@@ -16,7 +16,7 @@ You can use Homebrew or the precompiled binary to install watch if you don't alr
 <b>Use an editor to edit file</b>:<br />
 <code>vi miner.sh</code><br />
 
-<h2>Miner - General Info </h2>
+<h2>Miner - General Info - The Essentials</h2>
 
 ```
 #!/bin/bash
