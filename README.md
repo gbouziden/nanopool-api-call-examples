@@ -4,10 +4,10 @@ You can use Homebrew or the precompiled binary to install watch if you don't alr
 <code>brew install watch</code>
 
 <b>Open terminal, then execute</b>:<br />
-<code>curl -O http://ktwit.net/code/watch-0.2-macosx/watch</code><br />
-<code>chmod +x watch</code><br />
-<code>./watch</code><br />
-<code>sudo mv watch /usr/local/bin/</code>
+```curl -O http://ktwit.net/code/watch-0.2-macosx/watch
+chmod +x watch<br />
+./watch
+sudo mv watch /usr/local/bin/```
 
 <b>Create a new file</b>:<br />
 <code>touch miner.sh</code><br />
