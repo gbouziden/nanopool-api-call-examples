@@ -60,7 +60,8 @@ tr -d ','
 ```
 
 <b>Output</b>:<br />
-```Eth_USD: 475.13
+```
+Eth_USD: 475.13
 Eth_BTC: 0.0491
 
 ```
