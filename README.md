@@ -45,3 +45,21 @@ hashrate: 1030.5
 workers: GTX1070x2
 hashrate: 1030.5
 ```
+<h2>Other - Prices</h2>
+```
+#!/bin/bash
+
+curl -k --silent https://api.nanopool.org/v1/eth/user/:your_wallet_address |
+
+jq -r '{Eth_USD:.data.price_usd, Eth_BTC:.data.price_btc}' |
+
+sed 's/[{}]//g' |
+tr -d '""' |
+tr -d ','
+```
+
+<b>Output</b>:<br />
+```Eth_USD: 475.13
+Eth_BTC: 0.0491
+
+```
