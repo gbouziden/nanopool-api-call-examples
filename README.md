@@ -46,6 +46,7 @@ workers: GTX1070x2
 hashrate: 1030.5
 ```
 <h2>Other - Prices</h2>
+
 ```
 #!/bin/bash
 
