@@ -65,6 +65,7 @@ Eth_USD: 475.13
 Eth_BTC: 0.0491
 ```
 <h2>UserSettings - Payment Limit</h2>
+
 ```
 #!/bin/bash
 
@@ -79,6 +80,7 @@ tr -d ','
 
 
 <b>Output</b>:<br />
+
 ```
 payout_limit: 0.1
 ```
