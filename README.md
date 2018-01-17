@@ -69,7 +69,7 @@ Eth_BTC: 0.0491
 ```
 #!/bin/bash
 
-curl -k --silent https://api.nanopool.org/v1/eth/usersettings/0xF6aEf774bE74344AfB81883497608ae738bbbF4C | 
+curl -k --silent https://api.nanopool.org/v1/eth/usersettings/:your_wallet_address | 
 
 jq -r '{payout_limit:.data.payout}' | 
 
