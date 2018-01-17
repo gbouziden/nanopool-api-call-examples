@@ -84,3 +84,34 @@ tr -d ','
 ```
 payout_limit: 0.1
 ```
+
+<h2>Combined Output</h2>
+
+```
+#!/bin/bash
+
+mining/prices.sh
+echo "  --- --- --- --- --- ---"
+mining/mining_general.sh
+```
+
+<b>Output</b>:<br />
+
+```
+  Eth_USD: 962.76
+  Eth_BTC: 0.08932
+
+  --- --- --- --- --- ---
+
+  balance: 0.03722546
+  curent_hashrate: 1030.5
+  six_hr_avg: 1030.5
+
+
+  workers: GTX1070
+  hashrate: 1030.5
+
+
+  workers: GTX1070x2
+  hashrate: 1030.5
+```
