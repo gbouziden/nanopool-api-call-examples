@@ -64,3 +64,21 @@ tr -d ','
 Eth_USD: 475.13
 Eth_BTC: 0.0491
 ```
+<h2>UserSettings - Payment Limit</h2>
+```
+#!/bin/bash
+
+curl -k --silent https://api.nanopool.org/v1/eth/usersettings/0xF6aEf774bE74344AfB81883497608ae738bbbF4C | 
+
+jq -r '{payout_limit:.data.payout}' | 
+
+sed 's/[{}]//g' |
+tr -d '""' | 
+tr -d ',' 
+```
+
+
+<b>Output</b>:<br />
+```
+payout_limit: 0.1
+```
