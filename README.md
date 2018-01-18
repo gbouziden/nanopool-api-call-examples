@@ -1,4 +1,4 @@
-You can use Homebrew or the precompiled binary to install watch if you don't already have it:
+You can use Homebrew or the precompiled binary to install <b><u>watch</u></b> if you don't already have it:
 
 <b>Homebrew</b>:<br />
 <code>brew install watch</code>
