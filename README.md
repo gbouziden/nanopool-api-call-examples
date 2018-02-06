@@ -1,6 +1,8 @@
+Please note that you should not make mroe than 30 calls per minute to the API.<br />
+This process will work - Ethereum, Ethereum Classic, SiaCoin, ZCash, Monero, Pascal, Electroneum<br />
+
 You can use Homebrew or the precompiled binary to install <b><u>watch</u></b> if you don't already have it:
-Please note that you should not make mroe than 30 calls per minute to the API.
-This process will work - Ethereum, Ethereum Classic, SiaCoin, ZCash, Monero, Pascal, Electroneum
+
 
 <b>Homebrew</b>:<br />
 <code>brew install watch</code>
